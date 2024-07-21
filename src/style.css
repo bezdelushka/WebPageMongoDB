@@ -1,0 +1,147 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(8, 55, 61);
+}
+
+body{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fexternal-preview.redd.it%2FC7uHiFMIpTbVSHM8y44Z4ii7BEkYcbVKhILYDlbq7M4.jpg%3Fauto%3Dwebp%26s%3De7413b8fa4b835f88453bd03d1d48be2f9bfc457&f=1&nofb=1&ipt=b4ba533990188cab628c4eb9d19cc8debdab2c27eb091182ca6097874e503de1&ipo=images');
+    background-size: cover;
+}
+a{
+    font-size: large;
+    font-weight: 200;
+}
+h1{
+    background-color: rgb(8, 55, 61);
+    color: LemonChiffon;
+    text-align: center;
+} 
+h2{
+    background-color: LemonChiffon;
+    color: rgb(8, 55, 61);
+    text-align: center;
+}
+
+table{
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    /* background-color: aliceblue; */
+}
+
+#signuplogin{
+    font-size: medium;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(8, 55, 61);
+    margin: auto;
+    width: auto;
+    
+}
+
+.form{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 25px;
+    background: LemonChiffon;
+    padding: 20px;
+}
+
+#form-login{
+    width: 400px;
+    height: 250px;
+}
+
+#form-signup{
+    width: 400px;
+    height: 325px;
+}
+
+.form-input{
+    width: 90%;
+    margin: auto;
+}
+
+.card-body{
+    align-content: center;
+    background-color:LemonChiffon;
+}
+
+
+.btn{
+    background-color:rgb(8, 55, 61);
+    border-color: rgb(8, 55, 61);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background-color: #0a5041;
+    border-color: rgb(8, 55, 61);
+}
+.card-img-top{
+    align-content: center;
+}
+.profile-pic {
+    max-width: 150px;
+    border: 15px solid lemonchiffon;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Change flex-direction to column */
+    height: 100%;
+    
+}
+
+.left {
+
+    float:left;
+    width: 35%;
+}
+
+.right {
+    float:right;
+    width: 65%;
+    align-items: center;
+}
+
+.bottom {
+    clear:both;
+    width: 100%;
+}
+
+.center{
+    text-align: center;
+    padding: 2%;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+/* .inframe{
+    border: 10px solid lemonchiffon;
+    border-radius: 5px;
+    overflow: hidden;
+} */
